@@ -65,7 +65,7 @@ def main():
 
         for item in drawable:
             item.draw(screen)
-        game_over_txt = font.render(f'Game Over macha! score:{score} Press "q" to quit or "r" to respawn',True,(45, 173, 171))
+        game_over_txt = font.render(f'Game Over! score:{score} Press "q" to quit or "r" to respawn',True,(45, 173, 171))
         text_rect = game_over_txt.get_rect()
         text_rect.center = (screen.get_width()//2, screen.get_height()//2)
 
